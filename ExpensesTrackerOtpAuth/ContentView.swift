@@ -16,7 +16,6 @@ struct ContentView: View {
                 VStack {
                     MainView()
                 }
-                .navigationTitle("Home")
                 
             }else{
                 LoginViewView()

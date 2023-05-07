@@ -26,7 +26,7 @@ struct MainView: View {
     var body: some View {
         VStack(spacing: 0){
             TabView(selection: $currentTab){
-                Text("home")
+                HomeTrackerView()
                     .setBG()
                     .tag(Tab.home)
                 
