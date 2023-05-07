@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>494643137346-sg3nd099elb1r3fcnfq6jupsqm7oinlo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.494643137346-sg3nd099elb1r3fcnfq6jupsqm7oinlo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyByRPXxSI6MJ3HSDXBF_HIImIJwLnvFbIU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>494643137346</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sonatel.ExpensesTrackerOtpAuth</string>
+	<key>PROJECT_ID</key>
+	<string>trackerexpensive</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trackerexpensive.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:494643137346:ios:1c84f35835bf899a3856db</string>
+</dict>
+</plist>

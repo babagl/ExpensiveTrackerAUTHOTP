@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027DB3262A08287A00DD0D8B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 027DB3252A08287A00DD0D8B /* Lottie */; };
+		027DB32C2A0829E000DD0D8B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32A2A0829E000DD0D8B /* Tab.swift */; };
+		027DB32D2A0829E000DD0D8B /* AnimatedIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */; };
+		027DB3302A082A0400DD0D8B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32E2A082A0300DD0D8B /* MainView.swift */; };
+		027DB3312A082A0400DD0D8B /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32F2A082A0400DD0D8B /* ResizableLottieView.swift */; };
+		027DB3372A082A8700DD0D8B /* hover-cog-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 027DB3332A082A8600DD0D8B /* hover-cog-1.json */; };
+		027DB3382A082A8700DD0D8B /* hover-analytics.json in Resources */ = {isa = PBXBuildFile; fileRef = 027DB3342A082A8600DD0D8B /* hover-analytics.json */; };
+		027DB3392A082A8700DD0D8B /* hover-bell.json in Resources */ = {isa = PBXBuildFile; fileRef = 027DB3352A082A8600DD0D8B /* hover-bell.json */; };
+		027DB33A2A082A8700DD0D8B /* hover-home-2-solid.json in Resources */ = {isa = PBXBuildFile; fileRef = 027DB3362A082A8600DD0D8B /* hover-home-2-solid.json */; };
 		02C0917D2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0917C2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift */; };
 		02C0917F2A00202F002E9A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0917E2A00202F002E9A2B /* ContentView.swift */; };
 		02C091812A002031002E9A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C091802A002031002E9A2B /* Assets.xcassets */; };
 		02C091842A002031002E9A2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C091832A002031002E9A2B /* Preview Assets.xcassets */; };
 		02C091862A002031002E9A2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C091852A002031002E9A2B /* Persistence.swift */; };
 		02C091892A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02C091872A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodeld */; };
+		02C091912A002662002E9A2B /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C091902A002662002E9A2B /* Verification.swift */; };
+		02C091942A002AAA002E9A2B /* OtpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C091932A002AAA002E9A2B /* OtpViewModel.swift */; };
+		02C091962A00F36E002E9A2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C091952A00F36E002E9A2B /* GoogleService-Info.plist */; };
+		02C0919A2A00F564002E9A2B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02C091992A00F564002E9A2B /* FirebaseAuth */; };
+		02C0919C2A00FFC6002E9A2B /* LoginViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0919B2A00FFC6002E9A2B /* LoginViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027DB32A2A0829E000DD0D8B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedIcons.swift; sourceTree = "<group>"; };
+		027DB32E2A082A0300DD0D8B /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		027DB32F2A082A0400DD0D8B /* ResizableLottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
+		027DB3332A082A8600DD0D8B /* hover-cog-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hover-cog-1.json"; sourceTree = "<group>"; };
+		027DB3342A082A8600DD0D8B /* hover-analytics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hover-analytics.json"; sourceTree = "<group>"; };
+		027DB3352A082A8600DD0D8B /* hover-bell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hover-bell.json"; sourceTree = "<group>"; };
+		027DB3362A082A8600DD0D8B /* hover-home-2-solid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hover-home-2-solid.json"; sourceTree = "<group>"; };
 		02C091792A00202F002E9A2B /* ExpensesTrackerOtpAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpensesTrackerOtpAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C0917C2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesTrackerOtpAuthApp.swift; sourceTree = "<group>"; };
 		02C0917E2A00202F002E9A2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +45,11 @@
 		02C091832A002031002E9A2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02C091852A002031002E9A2B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		02C091882A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpensesTrackerOtpAuth.xcdatamodel; sourceTree = "<group>"; };
+		02C091902A002662002E9A2B /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		02C091932A002AAA002E9A2B /* OtpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewModel.swift; sourceTree = "<group>"; };
+		02C091952A00F36E002E9A2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02C091972A00F3BB002E9A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02C0919B2A00FFC6002E9A2B /* LoginViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,15 +57,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C0919A2A00F564002E9A2B /* FirebaseAuth in Frameworks */,
+				027DB3262A08287A00DD0D8B /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0257B4562A0141470025FB66 /* ExpenseTrackerViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExpenseTrackerViews;
+			sourceTree = "<group>";
+		};
+		027DB3292A0829CD00DD0D8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */,
+				027DB32A2A0829E000DD0D8B /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		027DB3322A082A7100DD0D8B /* TabIcons */ = {
+			isa = PBXGroup;
+			children = (
+				027DB3342A082A8600DD0D8B /* hover-analytics.json */,
+				027DB3352A082A8600DD0D8B /* hover-bell.json */,
+				027DB3332A082A8600DD0D8B /* hover-cog-1.json */,
+				027DB3362A082A8600DD0D8B /* hover-home-2-solid.json */,
+			);
+			path = TabIcons;
+			sourceTree = "<group>";
+		};
 		02C091702A00202F002E9A2B = {
 			isa = PBXGroup;
 			children = (
+				027DB3322A082A7100DD0D8B /* TabIcons */,
 				02C0917B2A00202F002E9A2B /* ExpensesTrackerOtpAuth */,
 				02C0917A2A00202F002E9A2B /* Products */,
 			);
@@ -55,6 +112,11 @@
 		02C0917B2A00202F002E9A2B /* ExpensesTrackerOtpAuth */ = {
 			isa = PBXGroup;
 			children = (
+				027DB3292A0829CD00DD0D8B /* Model */,
+				02C091972A00F3BB002E9A2B /* Info.plist */,
+				02C091952A00F36E002E9A2B /* GoogleService-Info.plist */,
+				02C091922A002A8E002E9A2B /* ViewModel */,
+				02C0918F2A002650002E9A2B /* Views */,
 				02C0917C2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift */,
 				02C0917E2A00202F002E9A2B /* ContentView.swift */,
 				02C091802A002031002E9A2B /* Assets.xcassets */,
@@ -73,6 +135,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		02C0918F2A002650002E9A2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				027DB32E2A082A0300DD0D8B /* MainView.swift */,
+				027DB32F2A082A0400DD0D8B /* ResizableLottieView.swift */,
+				0257B4562A0141470025FB66 /* ExpenseTrackerViews */,
+				02C091902A002662002E9A2B /* Verification.swift */,
+				02C0919B2A00FFC6002E9A2B /* LoginViewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02C091922A002A8E002E9A2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02C091932A002AAA002E9A2B /* OtpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +171,10 @@
 			dependencies = (
 			);
 			name = ExpensesTrackerOtpAuth;
+			packageProductDependencies = (
+				02C091992A00F564002E9A2B /* FirebaseAuth */,
+				027DB3252A08287A00DD0D8B /* Lottie */,
+			);
 			productName = ExpensesTrackerOtpAuth;
 			productReference = 02C091792A00202F002E9A2B /* ExpensesTrackerOtpAuth.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +203,10 @@
 				Base,
 			);
 			mainGroup = 02C091702A00202F002E9A2B;
+			packageReferences = (
+				02C091982A00F564002E9A2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				027DB3242A08287A00DD0D8B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 02C0917A2A00202F002E9A2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,8 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027DB3372A082A8700DD0D8B /* hover-cog-1.json in Resources */,
 				02C091842A002031002E9A2B /* Preview Assets.xcassets in Resources */,
+				02C091962A00F36E002E9A2B /* GoogleService-Info.plist in Resources */,
+				027DB3382A082A8700DD0D8B /* hover-analytics.json in Resources */,
 				02C091812A002031002E9A2B /* Assets.xcassets in Resources */,
+				027DB33A2A082A8700DD0D8B /* hover-home-2-solid.json in Resources */,
+				027DB3392A082A8700DD0D8B /* hover-bell.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C091942A002AAA002E9A2B /* OtpViewModel.swift in Sources */,
+				02C0919C2A00FFC6002E9A2B /* LoginViewView.swift in Sources */,
+				02C091912A002662002E9A2B /* Verification.swift in Sources */,
+				027DB3302A082A0400DD0D8B /* MainView.swift in Sources */,
+				027DB32C2A0829E000DD0D8B /* Tab.swift in Sources */,
 				02C091862A002031002E9A2B /* Persistence.swift in Sources */,
+				027DB3312A082A0400DD0D8B /* ResizableLottieView.swift in Sources */,
 				02C0917F2A00202F002E9A2B /* ContentView.swift in Sources */,
+				027DB32D2A0829E000DD0D8B /* AnimatedIcons.swift in Sources */,
 				02C0917D2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift in Sources */,
 				02C091892A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodeld in Sources */,
 			);
@@ -278,6 +380,7 @@
 				DEVELOPMENT_TEAM = A5L3S3UN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpensesTrackerOtpAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +410,7 @@
 				DEVELOPMENT_TEAM = A5L3S3UN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExpensesTrackerOtpAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +451,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		027DB3242A08287A00DD0D8B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		02C091982A00F564002E9A2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		027DB3252A08287A00DD0D8B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 027DB3242A08287A00DD0D8B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		02C091992A00F564002E9A2B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C091982A00F564002E9A2B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		02C091872A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodeld */ = {
