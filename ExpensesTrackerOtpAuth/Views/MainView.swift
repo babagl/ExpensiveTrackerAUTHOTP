@@ -30,7 +30,7 @@ struct MainView: View {
                     .setBG()
                     .tag(Tab.home)
                 
-                Text("Statistiques")
+                HomeChartView()
                     .setBG()
                     .tag(Tab.chart)
                 

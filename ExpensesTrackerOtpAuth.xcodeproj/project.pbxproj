@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0202A4102A142D2800055DCC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202A40F2A142D2800055DCC /* Model.swift */; };
+		0202A4132A142D3B00055DCC /* HomeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202A4112A142D3B00055DCC /* HomeChartView.swift */; };
+		0202A4142A142D3B00055DCC /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202A4122A142D3B00055DCC /* BarGraphView.swift */; };
 		027DB3262A08287A00DD0D8B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 027DB3252A08287A00DD0D8B /* Lottie */; };
 		027DB32C2A0829E000DD0D8B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32A2A0829E000DD0D8B /* Tab.swift */; };
 		027DB32D2A0829E000DD0D8B /* AnimatedIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0202A40F2A142D2800055DCC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0202A4112A142D3B00055DCC /* HomeChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeChartView.swift; sourceTree = "<group>"; };
+		0202A4122A142D3B00055DCC /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
 		027DB32A2A0829E000DD0D8B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedIcons.swift; sourceTree = "<group>"; };
 		027DB32E2A082A0300DD0D8B /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -93,9 +99,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0202A40E2A142CA200055DCC /* BarGraphsViews */ = {
+			isa = PBXGroup;
+			children = (
+				0202A4122A142D3B00055DCC /* BarGraphView.swift */,
+				0202A4112A142D3B00055DCC /* HomeChartView.swift */,
+			);
+			path = BarGraphsViews;
+			sourceTree = "<group>";
+		};
 		027DB3292A0829CD00DD0D8B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0202A40F2A142D2800055DCC /* Model.swift */,
 				027DB33B2A0838F400DD0D8B /* SousCompte.swift */,
 				027DB32B2A0829E000DD0D8B /* AnimatedIcons.swift */,
 				027DB32A2A0829E000DD0D8B /* Tab.swift */,
@@ -178,6 +194,7 @@
 		02C0918F2A002650002E9A2B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0202A40E2A142CA200055DCC /* BarGraphsViews */,
 				027DB3422A08397A00DD0D8B /* ExpensesTrackerViews */,
 				027DB32E2A082A0300DD0D8B /* MainView.swift */,
 				027DB32F2A082A0400DD0D8B /* ResizableLottieView.swift */,
@@ -283,6 +300,7 @@
 				027DB33F2A08390900DD0D8B /* TransactionViewModel.swift in Sources */,
 				02C091942A002AAA002E9A2B /* OtpViewModel.swift in Sources */,
 				02C0919C2A00FFC6002E9A2B /* LoginViewView.swift in Sources */,
+				0202A4132A142D3B00055DCC /* HomeChartView.swift in Sources */,
 				027DB3402A08390900DD0D8B /* ExpenseViewModel.swift in Sources */,
 				027DB3562A08399700DD0D8B /* FabButtonComponent.swift in Sources */,
 				027DB3582A08399700DD0D8B /* DetailsBudgetWithTransaction.swift in Sources */,
@@ -299,8 +317,10 @@
 				02C0917F2A00202F002E9A2B /* ContentView.swift in Sources */,
 				027DB32D2A0829E000DD0D8B /* AnimatedIcons.swift in Sources */,
 				027DB33C2A0838F400DD0D8B /* SousCompte.swift in Sources */,
+				0202A4102A142D2800055DCC /* Model.swift in Sources */,
 				027DB34F2A08399700DD0D8B /* ReelTransactionView.swift in Sources */,
 				02C0917D2A00202F002E9A2B /* ExpensesTrackerOtpAuthApp.swift in Sources */,
+				0202A4142A142D3B00055DCC /* BarGraphView.swift in Sources */,
 				027DB3572A08399700DD0D8B /* NewExpenseView.swift in Sources */,
 				027DB3502A08399700DD0D8B /* FilteredDetailView.swift in Sources */,
 				02C091892A002031002E9A2B /* ExpensesTrackerOtpAuth.xcdatamodeld in Sources */,
